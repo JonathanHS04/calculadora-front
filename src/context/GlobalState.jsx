@@ -2,12 +2,7 @@ import React, { createContext, useReducer, useEffect, use } from 'react'
 import AppReducer from './AppReducer'
 
 const initialState = {
-    gastos: [
-        {id: 1, descripcion: "Flores", importe: -20},
-        {id: 2, descripcion: "Sabritas", importe: -25},
-        {id: 3, descripcion: "Salario", importe: 500},
-        {id: 4, descripcion: "Fotos", importe: 600},
-    ],
+    gastos: [],
     loading: true,
     error: null
 }
